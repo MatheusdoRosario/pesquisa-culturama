@@ -139,15 +139,20 @@
                 <label for="comment">Escreva sua opnião:</label>
                 <textarea name="userComment" id="comment" placeholder="Escreva aqui..."></textarea>
             </fieldset>
-            
 
+            <fieldset>
+                <legend>Confirmações</legend>
 
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa</label><br>
 
-
-
-
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="getResult">Desejo receber o resultado por email</label><br>
+            </fieldset>
 
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
 
 
         </form>
