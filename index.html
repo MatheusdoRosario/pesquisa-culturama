@@ -31,9 +31,11 @@
                 <input id="birthDate" type="date" name="userBirthDate">
                 <br>
                 <label for="email">Email</label>
-                <input id="email" type="email" name="userEmail">                    <br>
+                <input id="email" type="email" name="userEmail">                 
+                <br>
                 <label for="phoneNumber">Telefone</label>
-                <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD+NUMERO">
+                <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD+NUMERO" aria-describedby="phoneHelp">
+                <small id="phoneHelp">Preencha com 11 dígitos no formato: DDD + numero sem espaços ou hífen.</small>
                 <br>
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
